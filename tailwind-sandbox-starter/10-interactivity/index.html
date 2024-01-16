@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,25 +9,54 @@
   </head>
   <body>
     <!-- Hover State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500 hover:text-white">Submit</button>
 
     <!-- Focus State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-green-500 focus:text-white">Submit</button>
 
     <!-- Active State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-yellow-500 active:text-white">Submit</button>
 
     <!-- Styling based on parent state -->
+    <a href="#" class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
+      <h3 class="group-hover:text-white">Card Title</h3>
+      <p>This is card text</p>
+    </a>
 
     <!-- Pseudo Classes -->
+    <ul>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 1</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 2</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 3</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 4</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 5</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 6</li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select class="appearance-none">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
 
+    <br>
     <!-- Cursor -->
-
-    <!-- Resize -->
+    <p class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-pointer">Submit</p>
+    <p class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-wait">Submit</p>
+    <p class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-not-allowed">Submit</p>
+    <p class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-crosshair">Submit</p>
 
     <!-- User Select -->
+    <div class="select-none">Lorem ipsum dolor sit amet.</div>
+    <div class="select-text">Lorem ipsum dolor sit amet.</div>
+    <div class="select-all">Lorem ipsum dolor sit amet.</div>
+    <div class="select-auto">Lorem ipsum dolor sit amet.</div>
 
     <!-- Smooth Scroll Example -->
+    <a href="#item" class="block my-6">Go to item</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque nam odio sint ex. Cum dolores cumque voluptates hic delectus, vitae ullam reiciendis doloribus! Inventore autem illum odio, harum voluptates quam culpa deserunt libero. Culpa voluptas aliquam illo reiciendis cum, atque modi similique accusantium ducimus quaerat incidunt repellendus temporibus accusamus cupiditate ut amet facilis fugiat voluptate. Est molestiae minima accusantium magnam unde praesentium deserunt explicabo, eaque enim quis cupiditate architecto labore nemo corporis asperiores laudantium, quidem delectus possimus velit commodi doloribus nam recusandae. Vel architecto dolore, quisquam qui saepe sunt quasi illo temporibus, ullam, labore repellat fugiat in magnam dignissimos facere tempore nisi non placeat consectetur. Libero nulla ducimus expedita ab earum, similique culpa alias ut consequuntur id ullam maxime, doloribus beatae eveniet debitis sed vero delectus magni ipsam dolore? Numquam sequi, fugit sunt similique unde odit commodi dolore nihil reprehenderit, sit explicabo repellat officia nesciunt. Quasi dignissimos, tempore eum enim deleniti magnam a facilis placeat quae accusantium quia. Architecto in, voluptas omnis minima laborum veniam dolore blanditiis explicabo amet, quam quis hic molestias cum consectetur similique. Culpa impedit adipisci necessitatibus voluptatum expedita ipsa fugiat molestiae eligendi dolorum, possimus optio quasi et maxime, architecto provident hic voluptates consequuntur. Aspernatur, pariatur odit labore sit dignissimos sunt ratione mollitia magni deleniti nam totam officiis, assumenda consectetur suscipit ipsum delectus! Sint, minima corrupti! Atque aliquid, dolorem illo, sed odio omnis praesentium esse voluptate voluptas dolore excepturi accusamus in molestias iste voluptatibus. Modi nam corporis suscipit nemo excepturi earum inventore rem odio magni repellat laboriosam saepe recusandae pariatur, dolor facere incidunt soluta dolorem similique eveniet quibusdam esse. Fuga aspernatur in rerum totam iure et optio eveniet. Quisquam alias aliquam non expedita, ut dignissimos vero. Nisi culpa illum beatae ipsum nostrum harum unde sed incidunt, vero eos. Aspernatur impedit, omnis dolor nemo quos inventore laboriosam nostrum quidem adipisci laborum porro? Reiciendis consequatur pariatur, tenetur libero facere architecto, nostrum soluta laboriosam nulla culpa fugit saepe perspiciatis ab! Blanditiis quo aspernatur ad obcaecati id, animi soluta? Quia commodi repellat obcaecati, totam quis unde ad omnis debitis nemo minima beatae similique cum ducimus ratione placeat sequi officiis magni quas nostrum velit amet voluptates sapiente. Labore, officiis reiciendis soluta exercitationem neque aut veniam doloremque, eos debitis minus omnis voluptatem. Hic, corrupti inventore natus praesentium debitis, quas illo nam tenetur nisi, aliquid optio facilis ipsum ut suscipit nihil at. Iure quidem, est tempore delectus maiores at cumque non aliquam doloribus. Quibusdam.</p>
+    <div id="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione mollitia voluptas quaerat, assumenda architecto iure cum eius eveniet natus ipsa minus fugit ut commodi accusamus asperiores eum repudiandae eligendi neque, quae vero quia aut! Corrupti, suscipit voluptatem? Libero vitae aspernatur minima consequuntur, est laborum, totam neque nostrum suscipit, eos perspiciatis?</div>
   </body>
 </html>
 
