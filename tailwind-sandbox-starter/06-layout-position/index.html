@@ -1,37 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>TailwindCSS</title>
-  </head>
-  <body>
-    <!-- Positioning -->
 
-    <!-- Top left corner -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>TailwindCSS</title>
+</head>
 
-    <!-- Top right corner -->
+<body>
+  <!-- Positioning -->
+  <div class="relative h-12 bg-red-200 w-1/2">
+    <p>Parent element</p>
+    <div class="absolute bottom-0 right-0 bg-red-800">
+      <p>Absolute child</p>
+    </div>
+  </div>
 
-    <!-- Bottom left corner -->
+  <!-- Top left corner -->
+  <div class="relative h-32 w-32 bg-yellow-200">
+    <p>Parent</p>
+    <div class="absolute top-0 left-0 h-16 w-16 bg-yellow-400">
+      <p>Child</p>
+    </div>
+  </div>
 
-    <!-- Bottom right corner -->
+  <!-- Top right corner -->
+  <div class="relative h-32 w-32 bg-yellow-200">
+    <p>Parent</p>
+    <div class="absolute top-0 right-0 h-16 w-16 bg-yellow-400">
+      <p>Child</p>
+    </div>
+  </div>
 
-    <!-- Span top edge -->
+  <!-- Bottom left corner -->
+  <div class="relative h-32 w-32 bg-yellow-200">
+    <p>Parent</p>
+    <div class="absolute bottom-0 left-0 h-16 w-16 bg-yellow-400">
+      <p>Child</p>
+    </div>
+  </div>
 
-    <!-- Span left edge -->
+  <!-- Bottom right corner -->
+  <div class="relative h-32 w-32 bg-yellow-200">
+    <p>Parent</p>
+    <div class="absolute bottom-0 right-0 h-16 w-16 bg-yellow-400">
+      <p>Child</p>
+    </div>
+  </div>
 
-    <!-- Span right edge -->
+  <!-- Span top edge -->
+  <div class="relative h-32 w-32 bg-orange-200">
+    <p>Parent</p>
+    <div class="absolute top-0 inset-x-0 h-16 bg-orange-400">
+      <p>Child</p>
+    </div>
+  </div>
 
-    <!-- Span bottom edge -->
+  <!-- Span left edge -->
+  <div class="relative h-32 w-32 bg-orange-200">
+    <p>Parent</p>
+    <div class="absolute left-0 inset-y-0 w-16 bg-orange-400">
+      <p>Child</p>
+    </div>
+  </div>
 
-    <!-- Display Classes -->
+  <!-- Span right edge -->
+  <div class="relative h-32 w-32 bg-orange-200">
+    <p>Parent</p>
+    <div class="absolute right-0 inset-y-0 w-16 bg-orange-400">
+      <p>Child</p>
+    </div>
+  </div>
 
-    <!-- Z-Index -->
+  <!-- Span bottom edge -->
+  <div class="relative h-32 w-32 bg-orange-200">
+    <p>Parent</p>
+    <div class="absolute bottom-0 inset-x-0 h-16 bg-orange-400">
+      <p>Child</p>
+    </div>
+  </div>
 
-    <!-- Floats -->
-  </body>
+  <!-- Display Classes -->
+  <div>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. <span class="inline font-bold">This is inline.
+    </span>Sapiente perspiciatis voluptates nisi
+    dolor nostrum dolore architecto a? Libero maxime laudantium et perspiciatis velit porro cum deserunt, labore
+    voluptatum temporibus quidem natus voluptate optio similique. <span class="inline-block font-bold">This is inline
+      block. </span> Maiores, ad delectus animi dicta odio, in nisi
+    temporibus consequuntur recusandae, pariatur maxime aperiam tempora possimus! <span class="block font-bold">This is
+      block </span>Porro ex harum quod facilis sint
+    esse architecto, accusamus optio. <span class="hidden font-bold">This is hidden. </span> Lorem ipsum dolor sit amet
+    consectetur adipisicing elit. Quos, iure.
+  </div>
+
+  <!-- Z-Index -->
+  <div class="relative h-36">
+    <div class="absolute w-24 h-24 bg-blue-100 left-10 z-40">1</div>
+    <div class="absolute w-24 h-24 bg-blue-200 left-20">2</div>
+    <div class="absolute w-24 h-24 bg-blue-300 left-40 z-10">3</div>
+    <div class="absolute w-24 h-24 bg-blue-400 left-60 z-20">4</div>
+    <div class="absolute w-24 h-24 bg-blue-500 left-80 z-30">5</div>
+  </div>
+
+  <!-- Floats -->
+  <div class="w-1/2">
+    <img src="../assets/img/img1.jpg" alt="" class="w-48 h-48 float-left m-4">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias minima eaque eos! Atque porro, sequi, fuga
+      doloribus et voluptatem reprehenderit dignissimos cumque architecto a quas, distinctio nesciunt modi suscipit
+      deleniti.</p>
+  </div>
+</body>
+
 </html>
 
 <!-- Position Classes
